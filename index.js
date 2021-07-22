@@ -5,7 +5,7 @@ const expressApp = express()
 
 
 const PORT = process.env.PORT || 3000
-const URL = process.env.URL || 'https://noppabot.herokuapp.com/'
+const URL = process.env.URL || 'https://noppabot.herokuapp.com'
 const BOT_TOKEN = process.env.BOT_TOKEN
 
 const bot = new Telegraf(BOT_TOKEN)
